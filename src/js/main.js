@@ -45,7 +45,15 @@ console.info("9.",numeros)
 
 // 10. Crea una función llamada buscarFruta que tome como argumento una fruta y devuelva
 // true si esa fruta está en el array frutas, y false en caso contrario.
-
+function buscarFruta(fruta){
+    if (frutas.includes(fruta)) {
+        console.log(`La fruta ${fruta} está en el array de frutas`)
+        return true
+    } else {
+        console.log(`La fruta ${fruta} no está en el array de frutas`)
+        return false
+    }
+} 
 
 // 11. Imprime en la consola el primer elemento del array frutas.
 // 12. Imprime en la consola el último elemento del array numeros.
